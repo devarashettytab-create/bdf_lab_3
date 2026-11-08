@@ -1,8 +1,8 @@
 # Lab 3: REST API, query parameters, validation, debugging
 
-**Name:** Lakadaram Kalyan · **Registration number:** 252U1R9084 · **Section:** 111
+**Name:** Manivardhan · **Registration number:** 252U1R5037 · **Section:** 106
 
-**Live link:** https://lab3-w71q.onrender.com/books/
+**Live link:** https://bdf-lab-3-1yah.onrender.com/books/
 
 ## How to run
 
