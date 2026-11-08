@@ -89,7 +89,19 @@ npm start
 npm run dev
 ```
 
-The server starts at **http://localhost:3000**.
+The server starts locally at **http://localhost:3000**.
+
+### Production Deployment (Render)
+
+The application is deployed and running live on Render:
+- **Live URL:** [https://bdf-lab-3-mx28.onrender.com](https://bdf-lab-3-mx28.onrender.com)
+
+**Clickable Production API Endpoints:**
+- **GET /books:** [https://bdf-lab-3-mx28.onrender.com/books](https://bdf-lab-3-mx28.onrender.com/books) — Retrieve all books (supports query parameters)
+- **GET /books/1:** [https://bdf-lab-3-mx28.onrender.com/books/1](https://bdf-lab-3-mx28.onrender.com/books/1) — Retrieve a specific book by ID
+- **POST /books:** [https://bdf-lab-3-mx28.onrender.com/books](https://bdf-lab-3-mx28.onrender.com/books) — Add a new book (requires JSON body)
+- **PUT /books/:id:** [https://bdf-lab-3-mx28.onrender.com/books/1](https://bdf-lab-3-mx28.onrender.com/books/1) — Update a book by ID (requires JSON body)
+- **DELETE /books/:id:** [https://bdf-lab-3-mx28.onrender.com/books/1](https://bdf-lab-3-mx28.onrender.com/books/1) — Delete a book by ID
 
 ---
 
@@ -225,12 +237,15 @@ The API is deployed as a **Web Service** on [Render](https://render.com).
 
 ## 9. Live API URL
 
-| Resource | URL |
-|---|---|
-| Live deployment | https://bdf-lab-3-mx28.onrender.com |
-| Get all books | https://bdf-lab-3-mx28.onrender.com/books |
-| Get book by ID | https://bdf-lab-3-mx28.onrender.com/books/1 |
-| Root (returns 404) | https://bdf-lab-3-mx28.onrender.com/ |
+| Resource | Method | Endpoint / URL |
+|---|---|---|
+| Live deployment root | GET | https://bdf-lab-3-mx28.onrender.com |
+| Retrieve all books | GET | https://bdf-lab-3-mx28.onrender.com/books |
+| Retrieve a specific book | GET | https://bdf-lab-3-mx28.onrender.com/books/1 |
+| Add a new book | POST | https://bdf-lab-3-mx28.onrender.com/books |
+| Update a book | PUT | https://bdf-lab-3-mx28.onrender.com/books/:id |
+| Delete a book | DELETE | https://bdf-lab-3-mx28.onrender.com/books/:id |
+| Root route (returns 404) | GET | https://bdf-lab-3-mx28.onrender.com/ |
 
 > [!IMPORTANT]
 > Visiting `https://bdf-lab-3-mx28.onrender.com/` returns `{ "message": "Route not found" }` —
